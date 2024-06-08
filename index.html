@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/ba5edd162a.js" crossorigin="anonymous"></script>
+  <style>
+    /* Estilos adicionales para la animación de desplazamiento */
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* Estilos para el apartado de contactos */
+    .contact-section {
+      background-color: #2c3e50;
+      color: #fff; /* Cambio de color de texto a blanco */
+      padding: 50px 0;
+    }
+
+    /* Estilos para el botón de Perfiles y la lista desplegable */
+    .menu .profiles-dropdown {
+      position: relative;
+    }
+
+    .menu .profiles-dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #2c3e50;
+      min-width: 160px;
+      z-index: 1;
+    }
+
+    .menu .profiles-dropdown-content a {
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .menu .profiles-dropdown-content a:hover {
+      background-color: #ddd;
+      color: #2c3e50;
+    }
+
+    .menu .profiles-dropdown:hover .profiles-dropdown-content {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+<div class="wrapper">
+<header>
+<nav class="navbar">
+  <div class="brand">
+
+  </div>
+  <ul class="menu">
+    <li><a class="active" href="#">Home</a></li>
+    <li><a href="#about">Sobre mi</a></li>
+    <li><a href="#contact">Contacto</a></li>
+
+    <li class="profiles-dropdown">
+      <a href="#">Perfiles</a>
+      <div class="profiles-dropdown-content">
+        <a href="http://127.0.0.1:5500/index.html">Rodriguez De Lima</a>
+        <a href="http://127.0.0.1:5500/indexL.html">Lopez</a>
+        <a href="http://127.0.0.1:5500/indexG.html">Granizo</a>
+      </div>
+    </li>
+   
+  </ul>
+</nav>
+</header>
+<main class="main">
+  <div class="info-content">
+  <h1>Yo soy <span>RODRIGUEZ Leonel</span> </h1>
+  <p>Poseo la convicción de que, como recurso
+    profesional, tengo la capacidad de aportar
+    valiosas contribuciones y continuar mi
+    desarrollo en un entorno laboral alineado con
+    mis valores y expectativas. Mi habilidad para
+    adaptarme a diversas circunstancias se
+    combina con un compromiso constante de
+    brindar lo mejor de mis capacidades.
+    Asimismo, me esfuerzo por colaborar
+    eficazmente en equipos, promoviendo
+    valores fundamentales como el
+    compañerismo.</p>
+<a download href="/img/Currículum Leordl 6E.docx"> 
+  <button class="download-cv" download="">Descargar CV</button>
+  
+ </a> 
+</div>
+<img src="/img/LEOO66.jpeg" alt="LeoRodriguezPICTURE">
+
+ </main>
+</div>
+<div class="about" id="about">
+  <img src="/img/Leo55.jpeg" alt="Leo Rodriguez">
+ <div class="about-info">
+<h2>Sobre mi</h2>
+<div class="divider"></div>
+<p>"Estudiante de 18 años de la E.P.E.T N 1 UNESCO, actualmente en el último año de la orientación en Técnico Informático Profesional y Personal. Mi trayectoria académica se ha centrado en adquirir habilidades técnicas sólidas y una comprensión profunda de los principios informáticos fundamentales. Me destaco por mi enfoque proactivo y mi capacidad para enfrentar desafíos con creatividad y determinación. Persigo constantemente la mejora continua y estoy ansioso por contribuir con mi entusiasmo y conocimientos al mundo de la tecnología."</p>
+ </div>
+</div>
+<div class="portfolio">
+  <div class="portfolio-headings">
+    <h2>Mi portafolio</h2>
+    <div class="divider"></div>
+  </div>
+  <div class="container">
+    <div class="card">
+      <div class="card-img">
+      </div>
+      <div class="card_title">
+        <h2>Descripcion del proyecto</h2>
+        <p>
+          El proyecto de CRUD desarrollado para el quinto año de la E.P.E.T N°1 en el año 2023 fue concebido con la finalidad de ofrecer una solución integral para la gestión de ventas, incorporando la capacidad de emitir recibos. Este sistema representa un hito significativo en el proceso de aprendizaje y aplicación de conocimientos en el ámbito de la programación y la gestión de bases de datos para los estudiantes involucrados.</p>
+      </div>
+      <div class="card-projects-links">
+      
+         
+        
+     
+      
+        
+      
+          <i class="fa-solid fa-code"></i>
+    
+      </div>
+
+      <div class="proyect-details-content">
+        <button class="projects-details download-cv">
+          <a href="">
+            Detalles del proyecto
+  
+          </a>
+        </button>
+
+      </div>
+    
+    </div>
+  </div>
+</div>
+<div class="contact-section" id="contact">
+<div class="contact-headings">
+  <h2>Contactos</h2>
+  <div class="divider"></div>
+</div>
+
+<div class="container-contact">
+  <img src="/img/Leo4.jpeg" alt="Leordl10">
+  <div class="contact-form">
+    <h4 style="color: #fff;">Enviame un mensaje</h4>
+    <form action="https://formspree.io/f/xnqeywnw" method="POST" class="form" target="_blank" id="contactForm">
+      <label>
+        Nombre:
+        <input type="text" name="name">
+      </label>
+      <label>
+        Email:
+        <input type="email" name="email">
+      </label>
+      <label>
+        Mensaje:
+        <textarea name="message"></textarea>
+      </label>
+      <button type="submit" class="btn-submit">Enviar mensaje</button>
+    </form>
+  </div>
+</div>
+
+</div>
+
+<footer class="footer">
+  <div class="footer-content">
+    <h2>RODRIGUEZ Leonel</h2>
+    <h5>Frontend Developer</h5>
+  </div>
+  <div class="sotial-network" >
+    <a href="https://www.instagram.com/leordl10?igsh=eDVkdjZ2MTl2N3B0&utm_source=qr" target="_blank">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+   <a href="https://wa.link/05x0o5" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i>
+   </a>
+  </div>
+</footer>
+
+<script>
+  // Función para limpiar el formulario después de enviarlo
+  document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Evita que el formulario se envíe de forma predeterminada
+    var form = this;
+    var formData = new FormData(form);
+    var xhr = new XMLHttpRequest();
+
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState === XMLHttpRequest.DONE) {
+        if (xhr.status === 200) {
+          // Limpiar el formulario después de que se haya enviado correctamente
+          form.reset();
+        } else {
+          console.error('Hubo un error al enviar el formulario:', xhr.statusText);
+        }
+      }
+    };
+
+    xhr.open(form.method, form.action, true);
+    xhr.setRequestHeader('Accept', 'application/json');
+    xhr.send(formData);
+  });
+</script>
+
+</body>
+</html>

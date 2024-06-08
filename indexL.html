@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link rel="stylesheet" href="css/styleL.css">
+  <script src="https://kit.fontawesome.com/ba5edd162a.js" crossorigin="anonymous"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .contact-section {
+      background-color: #fce4ec; 
+      color: #333; 
+      padding: 50px 0;
+    }
+
+    .menu .profiles-dropdown {
+      position: relative;
+    }
+
+    .menu .profiles-dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #fce4ec; 
+      min-width: 160px;
+      z-index: 1;
+    }
+
+    .menu .profiles-dropdown-content a {
+      color: #333; 
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .menu .profiles-dropdown-content a:hover {
+      background-color: #ddd; 
+      color: #fce4ec; 
+    }
+
+    .menu .profiles-dropdown:hover .profiles-dropdown-content {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+<div class="wrapper">
+<header>
+<nav class="navbar">
+  <div class="brand">
+
+  </div>
+  <ul class="menu">
+    <li><a class="active" href="#">Home</a></li>
+    <li><a href="#about">Sobre mi</a></li>
+    <li><a href="#contact">Contacto</a></li>
+    <li class="profiles-dropdown">
+      <a href="#">Perfiles</a>
+      <div class="profiles-dropdown-content">
+        <a href="http://127.0.0.1:5500/index.html">Rodriguez De Lima</a>
+        <a href="http://127.0.0.1:5500/indexL.html">Lopez</a>
+        <a href="http://127.0.0.1:5500/indexG.html">Granizo</a>
+      </div>
+    </li>
+
+  </ul>
+</nav>
+</header>
+<main class="main">
+  <div class="info-content">
+  <h1>Yo soy <span>LOPEZ Mariana</span> </h1>
+  <p>Mi objetivo es continuar ampliando mis conocimientos y habilidades en el
+    campo de la informática, con la intención de desarrollarme profesionalmente
+    en áreas como desarrollo de software, ciberseguridad o soporte técnico.
+    Busco oportunidades para aplicar mis habilidades técnicas, aprender de
+    experiencias prácticas y contribuir al crecimiento y éxito en el ámbito
+    tecnológico.</p>
+<a download href="/img/Currículum Marketing Manager foto Sobrio Azul.pdf"> 
+  <button class="download-cv" download="">Descargar CV</button>
+  
+ </a> 
+</div>
+<img src="/img/mamamamam.jpeg" alt="LeoRodriguezPICTURE">
+
+ </main>
+</div>
+<div class="about" id="about">
+  <img src="/img/MMM.jpeg" alt="Leo Rodriguez">
+ <div class="about-info">
+<h2>Sobre mi</h2>
+<div class="divider"></div>
+<p>"Mi nombre es Mariana Agustina López, tengo 19 años y soy estudiante de la E.P.E.T N 1 UNESCO, donde estoy cursando el último año de la orientación en Técnico Informático Profesional y Personal. Durante mi trayectoria académica, he desarrollado habilidades técnicas sólidas y he adquirido una comprensión profunda de los principios informáticos fundamentales. Me caracterizo por mi enfoque proactivo y mi capacidad para afrontar desafíos con creatividad y determinación. Siempre estoy buscando maneras de mejorar y estoy emocionada por aportar mi entusiasmo y conocimientos al mundo de la tecnología."</p>
+ </div>
+</div>
+<div class="portfolio">
+  <div class="portfolio-headings">
+    <h2>Mi portafolio</h2>
+    <div class="divider"></div>
+  </div>
+  <div class="container">
+    <div class="card">
+      <div class="card-img">
+      </div>
+      <div class="card_title">
+        <h2>Descripcion del proyecto</h2>
+        <p>
+          El proyecto de CRUD desarrollado para el quinto año de la E.P.E.T N°1 en el año 2023 fue concebido con la finalidad de ofrecer una solución integral para la gestión de ventas, incorporando la capacidad de emitir recibos. Este sistema representa un hito significativo en el proceso de aprendizaje y aplicación de conocimientos en el ámbito de la programación y la gestión de bases de datos para los estudiantes involucrados.</p>
+      </div>
+      <div class="card-projects-links">
+      
+         
+        
+     
+      
+        
+      
+          <i class="fa-solid fa-code"></i>
+    
+      </div>
+
+      <div class="proyect-details-content">
+        <button class="projects-details download-cv">
+          <a href="#">
+            DETALLES DEL PROYECTO
+  
+          </a>
+        </button>
+
+      </div>
+    
+    </div>
+  </div>
+</div>
+<div class="contact-section" id="contact">
+<div class="contact-headings">
+  <h2>Contactos</h2>
+  <div class="divider"></div>
+</div>
+
+<div class="container-contact">
+  <img src="/img/apapapap.jpeg" alt="Leordl10">
+  <div class="contact-form">
+    <h4 style="color: #333;">Enviame un mensaje</h4>
+    <form action="https://formspree.io/f/xnqeywnw" method="POST" class="form" target="_blank" id="contactForm">
+      <label>
+        Nombre:
+        <input type="text" name="name">
+      </label>
+      <label>
+        Email:
+        <input type="email" name="email">
+      </label>
+      <label>
+        Mensaje:
+        <textarea name="message"></textarea>
+      </label>
+      <button type="submit" class="btn-submit">Enviar mensaje</button>
+    </form>
+  </div>
+</div>
+
+</div>
+
+<footer class="footer">
+  <div class="footer-content">
+    <h2>LOPEZ Mariana</h2>
+    <h5>Frontend Developer</h5>
+  </div>
+  <div class="sotial-network" >
+    <a href="https://www.instagram.com/lopezmari_005?igsh=MXY2bWxxcDZqb2VkNA==" target="_blank">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+   <a href="https://wa.link/t8y493" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i>
+   </a>
+  </div>
+</footer>
+
+<script>
+  // Función para limpiar el formulario después de enviarlo
+  document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Evita que el formulario se envíe de forma predeterminada
+    var form = this;
+    var formData = new FormData(form);
+    var xhr = new XMLHttpRequest();
+
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState === XMLHttpRequest.DONE) {
+        if (xhr.status === 200) {
+          // Limpiar el formulario después de que se haya enviado correctamente
+          form.reset();
+        } else {
+          console.error('Hubo un error al enviar el formulario:', xhr.statusText);
+        }
+      }
+    };
+
+    xhr.open(form.method, form.action, true);
+    xhr.setRequestHeader('Accept', 'application/json');
+    xhr.send(formData);
+  });
+</script>
+
+</body>
+</html>

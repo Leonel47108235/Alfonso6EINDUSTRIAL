@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  background-color: #fce4ec; 
+  color: #333; 
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333; 
+  margin: 0 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.menu a:hover {
+  background-color: #ddd; 
+}
+
+.menu .active {
+  color: #fff; 
+  background-color: #333;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.info-content {
+  max-width: 600px;
+}
+
+.info-content h1 {
+  font-size: 36px; 
+  margin-bottom: 20px;
+}
+
+.info-content p {
+  font-size: 18px; 
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.download-cv {
+  padding: 10px 20px;
+  border: none;
+  background-color: #333; 
+  color: #fff; 
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.download-cv:hover {
+  background-color: #555; 
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.about-info {
+  max-width: 500px;
+}
+
+.about-info h2 {
+  font-size: 24px; 
+  margin-bottom: 20px;
+}
+
+.about-info p {
+  font-size: 18px; 
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.card-img {
+    width: 100%;
+    height: 150px;
+    background-image: url(/img/2-original.png);
+    background-size: cover;
+  }
+  
+
+.portfolio {
+    color: #000000;
+    width: 100vw;
+    background-color: #f1add7; 
+  }
+  
+  .portfolio-headings {
+    width: 100vw;
+    padding: 5em;
+  }
+  
+  .portfolio-headings h2 {
+    font-size: 2.5em;
+  }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  max-width: 300px;
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card_title h2 {
+  font-size: 24px; 
+  margin-bottom: 20px;
+}
+
+.card_title p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.card-projects-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card-projects-links i {
+  font-size: 24px;
+  margin: 0 5px;
+  color: #333; 
+}
+
+.contact-section {
+  background-color: #fce4ec; 
+  color: #333; 
+  padding: 50px 0;
+}
+
+.main img:first-of-type {
+  border: 10px solid #ffffff; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.contact-headings {
+  text-align: center;
+}
+
+.contact-headings h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.container-contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.contact-form {
+  max-width: 500px;
+}
+
+.contact-form h4 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff; 
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  height: 100px;
+}
+
+.btn-submit {
+  padding: 10px 20px;
+  border: none;
+  background-color: #333; 
+  color: #fff; 
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn-submit:hover {
+  background-color: #555; 
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    background-color: #f1add7; 
+  }
+  
+  .footer-content h2 {
+    font-size: 3em;
+  }
+  
+  .footer-content h5,
+  .sotial-network i {
+    font-size: 1.5em;
+  }
+
+.sotial-network {
+  margin-top: 20px;
+}
+
+.sotial-network a {
+  text-decoration: none;
+  color: #fff; 
+  margin: 0 10px;
+}
+
+.sotial-network i {
+  font-size: 24px;
+}
+
+.projects-details {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: none;
+  background-color: #ffaae3; 
+  color: #fff; 
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  display: block; 
+  margin: 0 auto; 
+  margin-top: 20px; 
+}
+
+.projects-details:hover {
+  background-color: #ff87d1;
+}
+</style>
+</head>
+<body>
+
+</body>
+</html>
